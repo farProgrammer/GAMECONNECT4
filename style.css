@@ -1,0 +1,50 @@
+
+html{
+  font-family: "Montserrat", Futura, Helvetica, sans-serif;
+	text-align: center;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+#board td {
+    width: 50px;
+    height: 50px;
+    border: solid 1px #666;
+    text-align: center;
+    padding-right: 40px;
+    
+  }
+  body{
+      background-color: lightpink;
+      background-image: url(https://store-images.s-microsoft.com/image/apps.41929.14246448385562777.7795b656-4cc6-43e1-897f-ecca74691263.ce6424bf-ec09-434a-9a0d-6d9507621cfa?mode=scale&q=90&h=1080&w=1920);
+      
+background-size: cover;
+   
+
+  }
+  #p1-color,#p2-color{
+    background-color: darkslategrey;
+    color:chartreuse;
+  }
+  #start-game{
+    background-color: darkcyan;
+    color: mediumblue;
+  }
+  
+  
+  
+  .piece {
+    margin: 5px;
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+  }
+  
+
+  
+  #column-top td {
+    border: dashed 1px darkred;
+  }
+  
+  #column-top td:hover {
+    background-color:crimson;
+  }
